@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar .brand{padding:8px 20px;}
+.navbar a.brand img{max-width:75%;}
+#includeHeader{ margin:0; padding:0; display:block; width:100%;}
+#includeHeader .container-fluid {  background: #101115 none repeat scroll 0 0 !important;}
+#includeHeader .ace-nav > li{ line-height:63px; max-height:63px;}
+#includeHeader .user-info{ top: 18px;}
+#includeHeader #logosub {  font-size: 11px;  left: -50px;  position: relative;  top: 12px;}
+#includeHeader .ace-nav > li.grey {  background: #555 none repeat scroll 0 0;  border-right: 1px solid #333;}
+#includeHeader .nav-list > li .submenu > li > a{ padding-right:11px !important; color:#484848; border-top:1px dotted #cdcdcd;}
+#includeHeader .sidebar, .sidebar::before {  background-color: #f2f2f2;}
+#includeMenu .sidebar, .sidebar::before {  background-color: #f2f2f2;}
+#includeMenu .nav-list > li > a {  background-color: #fff;  color: #585858;  display: block;  font-size: 13px;  height: 38px; line-height: 36px;  padding: 0 16px 0 7px;  text-shadow: none !important;  }
+#includeMenu .nav-list > li.open > a{ background-color:#c5620b; border-left:none; color:#fff;}
+#includeMenu .nav-list > li.open > a:hover{ color:#fff;}
+#includeMenu .nav-list > li > a:hover::before {background-color: #c5620b; bottom: 0;  display: block;  left: 0; max-width: 3px;  overflow: hidden; position: absolute;  top: 0;  width: 3px; color:#c5620b;}
+#includeMenu .nav-list > li > a:hover > .arrow{ color:#c5620b;}
+#includeMenu .nav-list > li > a:hover{color:#c5620b;}
+#includeMenu .nav-list > li .submenu, .nav-list > li.active {  background-color: #efefef;}
+#includeMenu .nav-list > li > .submenu li > .submenu > li { background:#f0ecec}
+#includeMenu .nav-list > li > .submenu li > .submenu > li a:hover{ background:none; color:#c5620b}
+#includeMenu .nav-list > li > .submenu > li.bgaps{ background:#DEDEDE!important;}
+ #includeMenu .nav-list > li > .submenu li > .submenu > li a{ color:#616161}
+.nav-list > li a:hover > .arrow, .nav-list > li.active > a > .arrow, .nav-list > li.open > a > .arrow{color:#fff;}
+#includeMenu .nav-list > li.open > a:hover > .arrow{ color:#fff;}
+
+.fa{ font-size:18px; padding-left:8px; padding-right:8px}
+b.icon-angle-down {  margin-right: -6px !important;  margin-top: 0 !important;}
+#includeMenu .sidebar {  top:63px;}
+#logo .brand { padding:10px 20px !important;}
+#includeMenu .nav-list > li .submenu > li > a{padding:7px 20px 8px 37px; border-top:1px dotted #c9c9c9;}
+ #includeMenu .nav-list > li .submenu > li.bgaps > a{color:#454545;}
+ #includeMenu .nav-list > li.bgaps > .submenu li.open > ul{background:#fff;}
+#includeMenu .menu-min .nav-list > li > a > .menu-text{ background-color:#ffffff}
+ 
+ #includeMenu .nav-list > li.level { background:#000;}
+/*ul.nav-list li a:hover fa{color:#F00 !important;}
+ul.nav-list li a:hover .fa-building{color:#F00 !important;}*/
+
+.nav-list > li > .submenu li.open > a .arrow, .nav-list > li > .submenu li > .submenu li.open > a{color:#666;}
+#includeMenu .nav-list > li > .submenu li.open > .submenu > li { background:#fff;}
+

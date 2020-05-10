@@ -1,0 +1,9 @@
+ @media print
+{
+.left-sidebar{ display:none; position:static !important;}
+.col-md-9.right-sidebar.right-section{width:100% !important;    margin-left: 0px !important;}	
+.main-section .left-sidebar{ background:none !important}	
+.innersection{border:none !important}
+#header{position:static !important;}
+#footer{text-align:center !important; padding-left:0px !important;}	
+}
